@@ -1,0 +1,747 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"conta",
+				"containerId"
+			],
+			[
+				"canva",
+				"canvasContainer"
+			],
+			[
+				"getEle",
+				"getElementById	(jquery.js)"
+			],
+			[
+				"ng",
+				"ngprogress.js"
+			],
+			[
+				"PDF",
+				"PDFJS"
+			],
+			[
+				"main",
+				"main.css"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"tran",
+				"transparent	(_variables.scss)"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"bo",
+				"bower_components/"
+			],
+			[
+				"cur",
+				"cursor	(tags.scss)"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"deliver",
+				"deliver_signup"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 2236,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 90.0,
+		"last_filter": "javasc",
+		"selected_items":
+		[
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"start",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"log cu",
+				"Git: Quick Log Current File"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"legit",
+				"SublimeGit: Documentation"
+			],
+			[
+				"bran",
+				"Legit: Branches"
+			],
+			[
+				"log",
+				"Git: Quick Log Current File"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"branch",
+				"Legit: Branches"
+			],
+			[
+				"rev",
+				"File: Reveal"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"l",
+				"Legit: Branches"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 189.0,
+		"history":
+		[
+			"import os; os.getenv('PATH')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/au/Au/work/tinypdfviewer"
+	],
+	"file_history":
+	[
+		"/Users/au/Desktop/tinyviewer/web/viewer.js",
+		"/Users/au/Desktop/tinyviewer/web/jquery.js",
+		"/Users/au/Desktop/tinyviewer/web/textLayerBuilder.js",
+		"/Users/au/Desktop/tinyviewer/web/viewer.html",
+		"/Users/au/Desktop/tinyviewer/web/ngprogress.js",
+		"/Users/au/Desktop/tinyviewer/web/ngprogress.css",
+		"/Users/au/Desktop/tinyviewer/web/tinyviewer4.html",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/au/Desktop/tinyviewer/web/main.js",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/au/Desktop/tinyviewer/web/tinyviewer2.html",
+		"/Users/au/Desktop/tinyviewer/web/tinyviewer3.html",
+		"/Users/au/Desktop/tinyviewer/web/tinyviewer5.html",
+		"/Users/au/Downloads/pdfjs-1.1.366-dist/web/viewer.css",
+		"/Users/au/Desktop/tinyviewer/web/tinyviewer.html",
+		"/Users/au/Desktop/tinyviewer/web/viewer.css",
+		"/Users/au/Desktop/tinyviewer/web/main.css",
+		"/Users/au/Desktop/tinyviewer/web/l10n.js",
+		"/Users/au/Desktop/tiny/index.html",
+		"/Users/au/Desktop/tiny/main.js",
+		"/Users/au/Downloads/pdfjs/js/main.js",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
+		"/Users/au/Au/draft/sass3/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss",
+		"/Users/au/Au/draft/sass3/gulpfile.babel.js",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/Users/au/Au/draft/sass3/sass3.sublime-project",
+		"/Users/au/Au/draft/package.json",
+		"/Users/au/Au/draft/gulpfile.babel.js",
+		"/Users/au/Au/draft/bower.json",
+		"/Users/au/.zshrc",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/au/Au/work/tinypulse/app/views/surveys/index.html.haml",
+		"/Users/au/Au/work/tinypulse/spec/support/features/survey_helpers.rb",
+		"/Users/au/Au/work/tinypulse/app/assets/javascripts/lib/jquery.fileupload/app.js",
+		"/Users/au/Au/work/tinypulse/app/controllers/published_surveys_controller.rb",
+		"/Users/au/Au/work/tinypulse/app/models/tiny_tag.rb",
+		"/Users/au/Au/work/tinypulse/app/controllers/tags_controller.rb",
+		"/Users/au/Au/work/tinypulse/app/assets/stylesheets/tp_redesign/shared/icons.scss",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/au/Au/work/tinypulse/app/controllers/application_controller.rb",
+		"/Users/au/Au/work/tinypulse/app/helpers/site_messages_helper.rb",
+		"/Users/au/Au/work/tinypulse/app/assets/stylesheets/tp_redesign/tp_style.scss",
+		"/Users/au/Au/work/tinypulse/app/assets/stylesheets/tp_redesign/application/cheers_leader.scss",
+		"/Users/au/Au/work/tinypulse/tinypulse.sublime-project",
+		"/Users/au/Au/work/tinypulse/app/assets/stylesheets/tp_redesign/base/colors.scss",
+		"/Users/au/Downloads/Sketch-CSS-Sprite-Mixin-master/README.md",
+		"/Users/au/Au/work/tinypulse/.idea/runConfigurations/spec__tinypulse.xml",
+		"/Users/au/Au/work/tinypulse/app/assets/stylesheets/tp_redesign/shared/components.scss",
+		"/Users/au/Au/work/tinypulse/config/routes.rb",
+		"/Users/au/Au/work/tinypulse/app/controllers/surveys_controller.rb",
+		"/Users/au/Au/work/tinypulse/app/helpers/sessions_helper.rb",
+		"/Users/au/Au/work/tinypulse/app/views/surveys/this_week.html.haml",
+		"/Users/au/Au/work/tinypulse/app/views/tags/index.html.haml",
+		"/Users/au/Au/work/tinypulse/app/views/surveys/_segments_filters_form.html.haml",
+		"/Users/au/Au/work/tinypulse/app/views/surveys/_remove_filter.html.haml",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/au/Au/work/tinypulse/app/controllers/mobile_api_controller.rb",
+		"/Users/au/Au/work/tinypulse/app/views/surveys/_responses_text_table.html.haml",
+		"/Users/au/Au/work/tinypulse/app/views/layouts/_header.html.haml",
+		"/Users/au/Au/work/tinypulse/app/assets/stylesheets/application.css.scss",
+		"/Users/au/Au/work/tinypulse/app/assets/javascripts/application.js",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/Users/au/Au/work/tinypulse/app/views/users/five_users.html.haml",
+		"/Users/au/Au/work/tinypulse/app/controllers/users_controller.rb",
+		"/Users/au/Au/work/tinypulse/app/assets/javascripts/pagination/fetchers/published_survey_cheers.js.coffee",
+		"/Users/au/Au/work/tinypulse/app/assets/javascripts/pagination/fetchers/base.js.coffee",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/au/.zshrc.pre-oh-my-zsh",
+		"/Users/au/.npmrc",
+		"/Users/au/Au/work/tinypulse/app/assets/javascripts/pagination/view.js.coffee",
+		"/Users/au/Au/work/tinypulse/config/database.yml",
+		"/Users/au/Au/work/tinypulse/app/assets/javascripts/application/word_cloud.js",
+		"/Users/au/Au/work/tinypulse/config/settings/development.rb",
+		"/Users/au/Au/work/tinypulse/config/database.yml.sample",
+		"/Users/au/.bashrc",
+		"/Users/au/Au/work/tinypulse/app/assets/javascripts/application/cheers.js",
+		"/Users/au/.launchd.conf",
+		"/Users/au/Library/LaunchAgents/local.launchd.conf.plist",
+		"/Users/au/Au/work/tinypulse/.gitignore",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/SublimeGit/Default (OSX).sublime-keymap",
+		"/Users/au/Au/work/tinypulse/README.md",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/au/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Volumes/Git 2.5.3 Mavericks Intel Universal/setup git PATH for non-terminal programs.sh"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"",
+			"*.scss",
+			"",
+			"*.rb",
+			"",
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ctx",
+			"outputScale",
+			"OutputScale",
+			"outputScale",
+			"OutputScale",
+			"outputScale",
+			"getOutputScale",
+			"canvasOffset",
+			"$textLayerDiv",
+			"jquery",
+			"TextLayerBuilder",
+			"pdfViewer",
+			"load",
+			"getDocumentCallback",
+			"downloadedPromise",
+			"pdfDocument",
+			"pdfDocumentProperties",
+			"font",
+			"fontTypes",
+			"font",
+			".open(",
+			"supportsDocumentFonts",
+			"secondaryToolbar",
+			"SecondaryToolbar",
+			"toolbar",
+			"toolbarSidebar",
+			";\n",
+			"toolbarSidebar",
+			".getViewport",
+			"#viewerContainer",
+			"canvasContainer",
+			"pageUrl",
+			"pid",
+			"pdfViewer",
+			"pdfViewEr",
+			"PDFViewer",
+			"pdfViewer",
+			"PDFViewer",
+			"pdfViewer",
+			"PDFViewer",
+			"pdfViewer",
+			"PDFViewer",
+			"pdfViewer",
+			"PDFViewer",
+			"pdfViewer",
+			"PDFViewer",
+			"PDFViewerApplication",
+			"parameters",
+			"getDocument",
+			"DEFAULT_SCALE_VALUE",
+			"darken",
+			"darken:",
+			"darken",
+			"navbar",
+			"$component-active-bg",
+			"pill",
+			" !default",
+			";\n",
+			".dropdown-menu",
+			";\n",
+			".dropdown-menu",
+			"!default",
+			"#498398",
+			"#65ADC7",
+			"!default",
+			".logo",
+			"$grid-gutter-width",
+			"container",
+			"/assets/tp_redesign/fonts/",
+			"helper",
+			"survey_path",
+			"ctags",
+			"line",
+			"move",
+			"tp-font",
+			"image_tag",
+			"cccccc",
+			"65adc7",
+			"f2f2f2",
+			"image_tag",
+			"tp-table",
+			"tab",
+			"remove_filter_path",
+			"\n\nsegments_filters_form",
+			"\n\n\n",
+			"surveys",
+			"/surveys",
+			"surveys",
+			"surveys/this_week",
+			"users",
+			"Pagination.Fetchers",
+			"word-cloud",
+			"app.lvh.me",
+			"alt"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								811,
+								811
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 26.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 110.0
+	},
+	"output.git-pull":
+	{
+		"height": 110.0
+	},
+	"output.git-push":
+	{
+		"height": 110.0
+	},
+	"pinned_build_system": "",
+	"project": "tinypdfviewer.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"viewer",
+				"web/viewer.html"
+			],
+			[
+				"mixin",
+				"bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss"
+			],
+			[
+				"mixi",
+				"bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss"
+			],
+			[
+				"varia",
+				"bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"tags",
+				"app/assets/stylesheets/tp_redesign/application/tags.scss"
+			],
+			[
+				"survey/index",
+				"app/views/surveys/index.html.haml"
+			],
+			[
+				"tagcontro",
+				"app/controllers/tags_controller.rb"
+			],
+			[
+				"color",
+				"app/assets/stylesheets/tp_redesign/base/colors.scss"
+			],
+			[
+				"icons/",
+				".idea/runConfigurations/spec__tinypulse.xml"
+			],
+			[
+				"tags/index",
+				"app/views/tags/index.html.haml"
+			],
+			[
+				"tags/inde",
+				"app/views/tags/index.html.haml"
+			],
+			[
+				"surveys/remove_filter",
+				"app/views/surveys/_remove_filter.html.haml"
+			],
+			[
+				"segments_filters_form",
+				"app/views/surveys/_segments_filters_form.html.haml"
+			],
+			[
+				"controllers/survey",
+				"app/controllers/surveys_controller.rb"
+			],
+			[
+				"this_w",
+				"app/views/surveys/this_week.html.haml"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"responsetext",
+				"app/views/surveys/_responses_text_table.html.haml"
+			],
+			[
+				"applicationjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"applicationcss",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"layout/header",
+				"app/views/layouts/_header.html.haml"
+			],
+			[
+				"usercontr",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"database",
+				"config/database.yml.sample"
+			],
+			[
+				"app.js",
+				"app/assets/javascripts/lib/jquery.fileupload/app.js"
+			],
+			[
+				"giting",
+				".gitignore"
+			],
+			[
+				".js",
+				"app/assets/javascripts/application/cheers.js"
+			],
+			[
+				"app",
+				"src/app/app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Au/draft/sass2/sass2.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 288.0,
+		"last_filter": "surve",
+		"selected_items":
+		[
+			[
+				"surve",
+				"SurveyHelpers"
+			],
+			[
+				"",
+				"$destroy"
+			]
+		],
+		"width": 610.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
