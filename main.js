@@ -14,13 +14,17 @@ function getOutputScale(ctx) {
 }
 
 function renderPDF(options) {
+    var canvasContainer;
+    canvasContainer = document.getElementById(options.containerId);
+    canvasContainer.style.width = options.width + 'px';
 
     function renderPage(page) {
-        var viewport, scale, canvasContainer, canvas, ctx, outputScale;
+        var viewport, scale, canvas, ctx, outputScale, textLayerDiv, textLayer, canvasWrapper;
 
-        // set width of container
-        canvasContainer = document.getElementById(options.containerId);
-        canvasContainer.style.width = options.width + 'px';
+        canvasWrapper = document.createElement('div');
+        canvasWrapper.style.width = canvasContainer.style.width;
+        canvasWrapper.style.position = 'relative';
+        canvasContainer.appendChild(canvasWrapper);
 
         // adjust scale ratio to desired width
         viewport = page.getViewport(1);
@@ -29,7 +33,7 @@ function renderPDF(options) {
 
         // create canvas
         canvas = document.createElement('canvas');
-        canvasContainer.appendChild(canvas);
+        canvasWrapper.appendChild(canvas);
 
         // scale canvas
         ctx = canvas.getContext('2d');
@@ -41,6 +45,20 @@ function renderPDF(options) {
         canvas.style.height = Math.floor(viewport.height) + 'px';
         canvas._viewport = viewport;
 
+        // support text selection
+        textLayerDiv = document.createElement('div');
+        textLayerDiv.className = 'textLayer';
+        textLayerDiv.style.width = canvas.style.width;
+        textLayerDiv.style.height = canvas.style.height;
+
+        canvasWrapper.appendChild(textLayerDiv);
+
+        textLayer = new TextLayerBuilder({
+            textLayerDiv: textLayerDiv,
+            pageIndex: page.id - 1,
+            viewport: viewport
+        });
+
         if (outputScale.scaled) {
             ctx._transformMatrix = [outputScale.sx, 0, 0, outputScale.sy, 0, 0];
             ctx.scale(outputScale.sx, outputScale.sy);
@@ -50,6 +68,13 @@ function renderPDF(options) {
         page.render({
             canvasContext: ctx,
             viewport: viewport
+        }).then(function() {
+            page.getTextContent().then(
+                function textContentResolved(textContent) {
+                    textLayer.setTextContent(textContent);
+                    textLayer.render(200);
+                }
+            );
         });
     }
 
@@ -59,8 +84,6 @@ function renderPDF(options) {
         }
         NProgress.done();
     }
-
-    PDFJS.disableWorker = true;
 
     NProgress.start();
     PDFJS.getDocument(options.url).then(renderPages);
